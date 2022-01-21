@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   width: 78%;
-  height: 210vh;
+  height: auto;
   margin: 0 auto;
   flex-wrap: wrap;
 }
@@ -99,4 +99,57 @@
 
 .row__left {
   flex-wrap: nowrap;
+}
+
+.row__right {
+  justify-self: right;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__cnt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu__cnt__left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .right__cnt__top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right__cnt__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .menu__cnt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__cnt__left {
+    width: 100%;
+  }
 }

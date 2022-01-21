@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
 *,
 *:before,
@@ -29,7 +30,7 @@ $clr-link: #11a0ff;
 @import "footer.scss";
 
 h1 {
-  font-family: "robotspacecondent";
+  margin-top: 1.5em;
 }
 
 h2,
@@ -39,16 +40,19 @@ h4 {
 }
 
 .home--image {
-  width: 600px;
-  height: 450px;
+  width: 100%;
+  height: auto;
 }
 .cnt {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .home__contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 80%;
 }
