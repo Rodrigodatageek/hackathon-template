@@ -6,37 +6,363 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lato:wght@400;700;900&family=PT+Serif:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
   </head>
   <body>
     <nav class="nav">
-      <div class="nav__cnt">
-        <img src="/img/logo.svg" alt="" class="img" />
-        <ul class="nav__list">
-          <li class="nav__link">
-            <a href="#">Home</a>
-          </li>
-          <li class="nav__link">
-            <a href="#">Menu</a>
-          </li>
-          <li class="nav__link">
-            <a href="#">Coffee</a>
-          </li>
-          <li class="nav__link">Our-Story</li>
-        </ul>
-      </div>
+        <div class="nav__cnt">
+            <img src="/img/logo.svg" alt="" class="img" />
+            <ul class="nav__list">
+                <li class="nav__link">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav__link">
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li class="nav__link">
+                    <a href="coffee.html">Coffee</a>
+                </li>
+                <li class="nav__link">
+                    <a href="contact.html">Our-Story</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="main">
-      <div class="card">
-        <div class="card__title">
-          <div class="card__content"></div>
+    <section class="menu">     
+        <h1 class="menu__header">MENU</h2>
+        <div class="menu__cnt">
+            <div class="menu__cnt__left">
+                <div class="menu__card">
+                    <h3 class="menu__card__header">ESPRESSO COFFEE</h3>
+                    <div class="card__row">
+                        <p class="row__left">Espresso</p>
+                        <p class="row__right">3.8</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Doubleespresso</p>
+                        <p class="row__right">4.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Americano</p>
+                        <p class="row__right">5  </p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Espresso machiato</p>
+                        <p class="row__right">4.3</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Capuccino</p>
+                        <p class="row__right">5.2</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Flat White</p>
+                        <p class="row__right">5.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Latte</p>
+                        <p class="row__right">5.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Extra shot</p>
+                        <p class="row__right">1.1</p>
+                    </div>
+                </div>
+                <div class="menu__card__double__cnt">
+                    <div class="menu__card__double">
+                        <h3 class="menu__card__header__double">FILTER COFFE</h3>
+                        <div class="card__row__double">
+                            <p class="row__left__double">House Drip Coffee</p>
+                            <p class="row__right__double">4.5</p>
+                        </div>
+                        <div class="card__row__double">
+                            <p class="row__left__double">Aeropress</p>
+                            <p class="row__right__double">5.5</p>
+                        </div>
+                        <div class="card__row__double">
+                            <p class="row__left__double">V60</p>
+                            <p class="row__right__double">6.5</p>
+                        </div>
+                        <div class="card__row__double">
+                            <p class="row__left__double">Kalita</p>
+                            <p class="row__right__double">12</p>
+                        </div>
+                    </div>    
+                    <div class="menu__card__double double--bottom">
+                        <h3 class="menu__card__header__double">COFFEE SPECIALITIES</h3>
+                        <div class="card__row__double">
+                            <p class="row__left__double">Cascara</p>
+                            <p class="row__right__double">4.9</p>
+                        </div>
+                        <div class="card__row__double">
+                            <p class="row__left__double">Irish coffee</p>
+                            <p class="row__right__double">10.9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__card">
+                    <h3 class="menu__card__header">ICED</h3>
+                    <div class="card__row">
+                        <p class="row__left">Iced Latte</p>
+                        <p class="row__right">6.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Espresso on the rock</p>
+                        <p class="row__right">4.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Iced Cascara</p>
+                        <p class="row__right">5.5</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Affogato</p>
+                        <p class="row__right">5.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Iced Flat white</p>
+                        <p class="row__right">5.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Iced Filter</p>
+                        <p class="row__right">5.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Iced tea</p>
+                        <p class="row__right">4.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Iced chocolate</p>
+                        <p class="row__right">6.2</p>
+                    </div>
+                </div>
+                <div class="menu__card">
+                    <h3 class="menu__card__header">HOT</h3>
+                    <div class="card__row">
+                        <p class="row__left">Tea</p>
+                        <p class="row__right">4.9</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Ginger tea</p>
+                        <p class="row__right">4.5</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Hot chocolate</p>
+                        <p class="row__right">4.5</p>
+                    </div>
+                </div>
+                <div class="menu__card">
+                    <h3 class="menu__card__header">SOMETHING TO EAT</h3>
+                    <div class="card__row">
+                        <p class="row__left">Soup of the day</p>
+                        <p class="row__right">5.8</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Chipotle Citrus Chicken Sandwich</p>
+                        <p class="row__right">5.4</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Avocado Toast</p>
+                        <p class="row__right">5.6</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Super BLT Sandwich</p>
+                        <p class="row__right">12.8</p>
+                    </div>
+                </div>
+                <div class="menu__card">
+                    <h3 class="menu__card__header">SWEETS</h3>
+                    <div class="card__row">
+                        <p class="row__left">Homemade cakes of the day</p>
+                        <p class="row__right">5</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Key Lime and Coconut</p>
+                        <p class="row__right">1.5</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Icecream</p>
+                        <p class="row__right">2</p>
+                    </div>
+                    <div class="card__row">
+                        <p class="row__left">Tiramisu</p>
+                        <p class="row__right">6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__cnt__right">
+                <h2 class="menu__cnt__right__header">NON ALCOHOLIC BEVERAGES</h2>
+                <div class="right__cnt__top">
+                    <div class="menu__card">
+                        <h3 class="menu__card__header">LEMONADES</h3>
+                        <div class="card__row">
+                            <p class="row__left">Fresh Squeezed Lemonade</p>
+                            <p class="row__right">5</p>
+                        </div>
+                        <div class="card__row">
+                            <p class="row__left">Ginger Lemonade</p>
+                            <p class="row__right">4.5</p>
+                        </div>
+                        <div class="card__row">
+                            <p class="row__left">Cascara Fizz Original</p>
+                            <p class="row__right">5.8</p>
+                        </div>
+                        <div class="card__row">
+                            <p class="row__left">Club-mate Cola</p>
+                            <p class="row__right">4.5</p>
+                        </div>
+                        <div class="card__row">
+                            <p class="row__left">Tonic Thomas Henry</p>
+                            <p class="row__right">4.3</p>
+                        </div>
+                    </div>
+                    <div class="menu__card">
+                        <h3 class="menu__card__header">WATER</h3>
+                        <div class="card__row">
+                            <p class="row__left">Sparkling</p>
+                            <p class="row__right">2.4</p>
+                        </div>
+                        <div class="card__row">
+                            <p class="row__left">Still</p>
+                            <p class="row__right">2.4</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="menu__cnt__right__header">ALCOHOLIC BEVERAGES</h2>
+                <div class="right__cnt__bottom">
+                    <div class="right__cnt__bottom__left">
+                        <div class="menu__card__double">
+                            <h3 class="menu__card__header">BEER</h3>
+                            <div class="card__row">
+                                <p class="row__left">Small breweries on tap</p>
+                                <p class="row__right">3.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Birell (bottled)</p>
+                                <p class="row__right">3.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Cider Magnetic Apple</p>
+                                <p class="row__right">4.5</p>
+                            </div>
+                        </div>
+                        <div class="menu__card__double">
+                            <h3 class="menu__card__header">WHITE WINE</h3>
+                            <div class="card__row">
+                                <p class="row__left">Chardonnay Les Vignes de L'Arque,
+                                France</p>
+                                <p class="row__right">3.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Sauvignon Blanc, Château Le Sartre
+                                Blanc 2011</p>
+                                <p class="row__right">3.8</p>
+                            </div>
+                        </div>
+                        <div class="menu__card__double">
+                            <h3 class="menu__card__header">RED WINE</h3>
+                            <div class="card__row">
+                                <p class="row__left">Cuvée Côtes du Rhône Vigneros de
+                                Caracterem</p>
+                                <p class="row__right">3.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Cabernet Sauvignon, Château Tour
+                                du Roch-Milon 2011</p>
+                                <p class="row__right">3.5</p>
+                            </div>
+                        </div>
+                        <div class="menu__card__double">
+                            <h3 class="menu__card__header">COCKTAILS</h3>
+                            <div class="card__row">
+                                <p class="row__left">Gin Tonic</p>
+                                <p class="row__right">9</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Cuba Libre</p>
+                                <p class="row__right">9.9</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Mojito</p>
+                                <p class="row__right">9.9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right__cnt__bottom__right">
+                        <div class="menu__card__double">
+                            <h3 class="menu__card__header">SPIRITS</h3>
+                            <div class="card__row__double">
+                                <p class="row__left">Metaxa 12*</p>
+                                <p class="row__right">7.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Tullamore Dew</p>
+                                <p class="row__right">6.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Jameson Whiskey</p>
+                                <p class="row__right">6.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Bombay, Añejo Suave</p>
+                                <p class="row__right">6.8</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Ron Cubay, Añejo Suave</p>
+                                <p class="row__right">6.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Tequila, El Jimador, Reposado</p>
+                                <p class="row__right">6.2</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Vodka Finlandia</p>
+                                <p class="row__right">5.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Bailey's</p>
+                                <p class="row__right">5.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Jagermeister</p>
+                                <p class="row__right">5.5</p>
+                            </div>
+                            <div class="card__row">
+                                <p class="row__left">Graham's Tawny Porto</p>
+                                <p class="row__right">4.7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="card__title">
-          <div class="card__content"></div>
+        
+    </section>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer__cnt">
+            <div class="footer__list">
+                <a href="#" class="link footer__link">Home</a>
+                <a href="#" class="link footer__link">Menu</a>
+                <a href="#" class="link footer__link">Coffee</a>
+                <a href="#" class="link footer__link">Our Story</a>
+            </div>
+            <div class="footer__list2">
+                <p class="footer__hashtag">#HIPSTERSMAKECOFFEE</p>
+                <p class="footer__social">Follow us on <a class="link link--social" href="#">Twitter</a> and <a
+                        class="link link--social" href="#">Instagram</a></p>
+            </div>
         </div>
-      </div>
-    </div>
+    </footer>
+
   </body>
 </html>
