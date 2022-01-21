@@ -41,3 +41,34 @@
   max-width: 90%;
   max-height: 90%;
 }
+
+@media screen and (max-width: 768px) {
+  .nav__cnt {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+  }
+
+  .nav__list {
+    width: 100%;
+  }
+
+  .nav {
+    height: 40vh;
+  }
+
+  img {
+    max-width: 10%;
+    max-height: 90%;
+  }
+
+  .nav__link a {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .nav__list {
+    width: 100%;
+  }
+}
