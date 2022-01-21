@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@import "/src/scss/coffee.scss";
+@import "/src/scss/contact-form.scss";
+@import "/src/scss/footer.scss";
+@import "/src/scss/menu.scss";
+@import "/src/scss/navigation.scss";
