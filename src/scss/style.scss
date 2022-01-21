@@ -1,16 +1,16 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-	min-height: 100vh;
-	margin: 0 auto;
-	font-family: "Roboto Condensed", sans-serif;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 $nav-grey: #f8f9fa;
