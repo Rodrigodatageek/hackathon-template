@@ -1,18 +1,18 @@
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body {
-  min-height: 100vh;
+	min-height: 100vh;
 }
 
-@import "/src/scss/coffee.scss";
-@import "/src/scss/contact-form.scss";
-@import "/src/scss/footer.scss";
-@import "/src/scss/menu.scss";
-@import "/src/scss/navigation.scss";
+@import "./coffee.scss";
+@import "./contact.scss";
+@import "./footer.scss";
+@import "./menu.scss";
+@import "./navigation.scss";
