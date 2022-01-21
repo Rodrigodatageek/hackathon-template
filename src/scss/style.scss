@@ -27,3 +27,28 @@ $clr-link: #11a0ff;
 @import "coffee.scss";
 @import "contact.scss";
 @import "footer.scss";
+
+h1 {
+  font-family: "robotspacecondent";
+}
+
+h2,
+h3,
+h4 {
+  font-size: "robotspacecondent";
+}
+
+.home--image {
+  width: 600px;
+  height: 450px;
+}
+.cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__contact {
+  display: flex;
+  justify-content: space-around;
+}
