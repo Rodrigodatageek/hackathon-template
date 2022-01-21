@@ -1,0 +1,33 @@
+.container--coffee {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	&--card {
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+		border: solid 1px black;
+		border-radius: 5px;
+		background-color: lightgrey;
+		padding: 5px;
+		margin-bottom: 10px;
+
+		&_headline {
+			display: flex;
+			align-items: center;
+			text-transform: uppercase;
+		}
+		&_thumbnail {
+			display: flex;
+
+			background-image: url(../img/smcr-quejina.jpg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 300px;
+		}
+		&_description {
+		}
+	}
+}
