@@ -1,0 +1,43 @@
+.nav {
+  height: 15vh;
+  background-color: $nav-grey;
+  display: flex;
+}
+
+.nav__cnt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 80%;
+  justify-content: right;
+}
+
+.nav__link {
+  flex-wrap: nowrap;
+  padding: 2em;
+  font-size: 1em;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: $nav-text;
+}
+
+.nav__link a:hover {
+  color: black;
+}
+
+.img {
+  max-width: 90%;
+  max-height: 90%;
+}

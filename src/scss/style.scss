@@ -9,10 +9,21 @@ html {
 
 body {
 	min-height: 100vh;
+	margin: 0 auto;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
-@import "./coffee.scss";
-@import "./contact.scss";
-@import "./footer.scss";
-@import "./menu.scss";
-@import "./navigation.scss";
+$nav-grey: #f8f9fa;
+$nav-text: #848585;
+$fot-grey: #343a40;
+$clr-link: #11a0ff;
+
+// @import "/src/scss/coffee.scss";
+// @import "/src/scss/contact-form.scss";
+// @import "/scss/footer.scss";
+// @import "/scss/menu.scss";
+@import "navigation.scss";
+@import "menu.scss";
+@import "coffee.scss";
+@import "contact.scss";
+@import "footer.scss";
